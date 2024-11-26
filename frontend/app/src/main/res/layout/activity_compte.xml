@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/spinnerAccountType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/format"
+        android:spinnerMode="dropdown" />
+    <Button
+        android:id="@+id/btnAddAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajouter un compte"
+        android:layout_marginTop="16dp"
+        android:onClick="onAddAccountClick" />
+
+    <!-- RecyclerView pour afficher les comptes avec une ligne de séparation entre chaque item -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewAccounts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:divider="@drawable/divider"
+    android:dividerHeight="1dp" />
+</LinearLayout>

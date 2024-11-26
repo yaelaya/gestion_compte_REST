@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Champ Solde -->
+    <TextView
+        android:id="@+id/textViewBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solde"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextBalance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Entrez le solde"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Champ pour entrer le solde" />
+
+    <!-- Champ Date de Création -->
+    <TextView
+        android:id="@+id/textViewCreationDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date de création"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextCreationDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Entrez la date de création"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Champ pour entrer la date de création" />
+
+    <!-- Champ Type -->
+    <TextView
+        android:id="@+id/textViewAccountType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextAccountType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez le type de compte"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Champ pour entrer le type de compte" />
+
+</LinearLayout>
+

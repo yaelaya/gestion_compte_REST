@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GestionCompte</string>
+    <string name="base_url">http://192.168.0.217/api/</string>
+
+<string-array name="account_types">
+    <item>Épargne</item>
+    <item>Courant</item>
+</string-array>
+
+    <string-array name="format">
+        <item>JSON</item>
+        <item>XML</item>
+    </string-array>
+
+</resources>
